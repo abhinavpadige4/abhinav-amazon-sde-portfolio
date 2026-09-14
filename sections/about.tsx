@@ -34,9 +34,11 @@ export default function About() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="w-48 h-48 bg-muted/20 rounded-full flex items-center justify-center">
-            <span className="text-primary text-3xl">A</span>
-          </div>
+          <img
+            src="/abhinav-photo.jpg"
+            alt="Abhinav profile photo"
+            className="w-48 h-48 rounded-full object-cover border-4 border-primary/20"
+          />
         </div>
       </div>
     </section>
