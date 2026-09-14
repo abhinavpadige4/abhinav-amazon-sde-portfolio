@@ -1,3 +1,5 @@
+import TimelineItem from '@/components/timeline-item';
+
 export default function Experience() {
   const experienceData = [
     {
