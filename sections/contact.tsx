@@ -18,16 +18,20 @@ export default function Contact() {
   });
 
   const onSubmit = (data: any) => {
-    // Simulate Formspree submission
-    fetch('https://formspree.io/f/your-form-id', {
+    // Using a placeholder Formspree endpoint - replace with actual ID in production
+    fetch('https://formspree.io/f/moqywdvv', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
     })
-      .then(() => {
-        toast.success('Message sent successfully!');
+      .then((response) => {
+        if (response.ok) {
+          toast.success('Message sent successfully!');
+        } else {
+          throw new Error('Failed to send');
+        }
       })
       .catch(() => {
         toast.error('Failed to send message. Please try again.');
