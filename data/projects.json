@@ -1,0 +1,26 @@
+[
+  {
+    "title": "E-Commerce Platform",
+    "description": "Built a scalable e-commerce platform handling 10K+ daily users with microservices architecture, integrated payment gateway, and real-time inventory management using AWS services.",
+    "techStack": ["Python", "Java", "AWS", "React", "Docker", "Kubernetes"],
+    "demoUrl": "https://ecommerce-demo.abhinav.com",
+    "githubUrl": "https://github.com/abhinavpadige4/ecommerce-platform",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNzQyNzl8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2V8fHx8fHx8MTY3NzQyNjQwMHw&ixlib=rb-4.0.3&q=80&w=400"
+  },
+  {
+    "title": "Real-Time Analytics Dashboard",
+    "description": "Developed a real-time analytics dashboard processing 50K+ events per second using Apache Kafka, providing actionable insights for business stakeholders with sub-second latency.",
+    "techStack": ["Java", "AWS", "React", "Node.js", "Apache Kafka", "PostgreSQL"],
+    "demoUrl": "https://analytics-demo.abhinav.com",
+    "githubUrl": "https://github.com/abhinavpadige4/analytics-dashboard",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNzQyNzl8MHwxfHNlYXJjaHwxfHxBbnBhbmVsfHx8fHx8MTY3NzQyNjQwMHw&ixlib=rb-4.0.3&q=80&w=400"
+  },
+  {
+    "title": "Cloud-Native CI/CD Pipeline",
+    "description": "Designed and implemented a cloud-native CI/CD pipeline reducing deployment time from hours to minutes, featuring automated testing, blue-green deployments, and rollback capabilities.",
+    "techStack": ["Python", "AWS", "React", "Terraform", "Jenkins", "GitHub Actions"],
+    "demoUrl": "https://cicd-demo.abhinav.com",
+    "githubUrl": "https://github.com/abhinavpadige4/ci-cd-pipeline",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cedbbf1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNzQyNzl8MHwxfHNlYXJjaHwxfHxDbG91ZHxlbnwwfHx8fDE2Nzc0MjY0MDB8&ixlib=rb-4.0.3&q=80&w=400"
+  }
+]
